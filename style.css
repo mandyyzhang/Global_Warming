@@ -75,9 +75,10 @@ body, html{
 .centerInfo{
   text-align: center;
   padding: 90px;
+  color: #EFF8FB;
 }
 
-.centerInfo > h1, p{
+.centerInfo > p{
   color: #EFF8FB;
 }
 
