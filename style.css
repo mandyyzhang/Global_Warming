@@ -3,7 +3,7 @@ body, html{
   padding: 0px;
   font-family: sans-serif;
 }
-/*----------------------------------------------------------------------------*/
+/*----------------------------------------*/
 .navMenu{
   position: fixed;
   top: 0;
@@ -13,10 +13,10 @@ body, html{
   color: #E6E6E6;
   float: left;
   padding: 15px;
-  text-decoration: none;
+  text-decoration: none; /*deletes url or any unwanted label on font*/
 }
 
-/*----------------------------------------------------------------------------*/
+/*1ST PAGE ===================================================================*/
 
 .background{
   background-image: url('polarbear.jpg');
@@ -28,76 +28,68 @@ body, html{
                             than the screen*/
   background-position: center, center;
   position: relative;
-  height: 750px;
+  height: 760px;
 }
-
+/*----------------------------------------*/
 .backgroundFont{
   text-align: center;
-  position: absolute;
+  position: absolute; /*centering fonts in the middle*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
-/*----------------------------------------------------------------------------*/
-
+/*----------------------------------------*/
 .bodyContent{
   text-align: center;
   background-color: #EFF8FB;
 }
 
-.bodyContent >h3 {
+.bodyContent > h3 {
   font-size: 20px;
   padding-top: 15px;
   margin: 0px;
-}
-
-.bodyContent > p{
   color: black;
-
 }
+
+.bodyContent > p {
+  color: black;
+}
+
 /*2ND PAGE ===================================================================*/
 
-.content1{
+.background2{
   background-image: url('smoke.jpg');
-  background-repeat: no-repeat; /*does not repeat the loaded image*/
-  background-attachment: fixed; /*so that the background does not move as the
-                                user scrolls*/
-  background-size: cover; /*scale the width and height of a responsive
-                            background image to be the same or bigger size
-                            than the screen*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-position: center, center;
   position: relative;
-  /* height: 750px; */
-
 }
-
-.centerInfo{
+/*----------------------------------------*/
+.bodyContent2{
   text-align: center;
   padding: 90px;
   color: #EFF8FB;
 }
 
-.centerInfo > p{
+.bodyContent2 > p {
   color: #EFF8FB;
 }
 
 /*3rd PAGE ===================================================================*/
 
-.content2{
+.background3{
   background-image: url('plant.jpg');
-  background-repeat: no-repeat; /*does not repeat the loaded image*/
-  background-attachment: fixed; /*so that the background does not move as the
-                                user scrolls*/
-  background-size: cover; /*scale the width and height of a responsive
-                            background image to be the same or bigger size
-                            than the screen*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-position: center, center;
   position: relative;
   height: 800px;
 }
-
-.subtitle{
+/*----------------------------------------*/
+.backgroundFont3{
   text-align: center;
   position: absolute;
   top: 35%;
@@ -107,18 +99,18 @@ body, html{
   font-size: 25px;
   padding: 10px;
 }
-
-.bodyContent2{
+/*----------------------------------------*/
+.bodyContent3{
   background-color: #E5F8E2;
-  margin: 0px;
   text-align: center;
 }
-.solutions > h1,p{
+
+.bodyContent3 > h1,p {
   color: black;
   padding: 15px;
   margin: 0px;
 }
 
-.solutions > iframe{
+.bodyContent3 > iframe {
   margin: 15px;
 }
